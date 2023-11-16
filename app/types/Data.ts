@@ -9,4 +9,7 @@ export interface Data {
   cacheId: string;
   formattedUrl: string;
   htmlFormattedUrl: string;
+  image: {
+    contextLink: string;
+  };
 }
